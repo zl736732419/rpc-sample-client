@@ -17,7 +17,7 @@ public class HelloServiceTest {
     private RpcProxy rpcProxy;
 
     @Test
-    public void helloTest1() {
+    public void helloTest() {
         // 调用代理的create方法，代理HelloService接口
         HelloService helloService = rpcProxy.create(HelloService.class);
 
